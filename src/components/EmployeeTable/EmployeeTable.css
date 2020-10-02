@@ -1,0 +1,14 @@
+tbody {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.pointer:hover:after {
+  font-size: 80%;
+  content: "🔻";
+  margin-right: 0;
+}
+
+th {
+  background-color: rgb(179, 0, 0);
+}

@@ -1,10 +1,11 @@
-import React from "react";
+import React from "react"; 
+import "./SearchBar.css"
 
 function SearchBar(props) {
   return (
     <form>
       <div className="form-group">
-        <label htmlFor="search">Search:</label>
+        <label htmlFor="searchTitle" id ="searchTitle">Search:</label>
         <input
           onChange={props.handleInputChange}
           value={props.search}
@@ -14,7 +15,7 @@ function SearchBar(props) {
           placeholder="Search for an employee"
           id="search"
         />
-        <button onClick={props.handleFormSubmit} className="btn btn-primary mt-3">
+        <button onClick={props.handleFormSubmit} className="btn btn-danger mt-3">
           Search
         </button>
       </div>
