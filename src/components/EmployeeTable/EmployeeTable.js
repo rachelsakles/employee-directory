@@ -22,7 +22,7 @@ function ResultList(props) {
     <tbody> 
       {props.results.map((emp, index) => (
         <tr key={index}>
-          <td scope="row" id="img"><img src={emp.picture.medium}/></td>
+          <td id="img" alt="img"><img src={emp.picture.medium} /></td>
           <td>{emp.name.first} {emp.name.last}</td>
           <td>{emp.phone}</td>
           <td><a href={"mailto: " + emp.email}>{emp.email}</a></td>
