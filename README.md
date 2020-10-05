@@ -11,6 +11,7 @@
   You first need to run npm install to install all the dependencies, then start the server by running npm start.
   ## Usage
   Once the app is running, it will show you all of the employees. You can search through employees by name, or filter their names in alphabetical order by clicking on the carrot next to the name.
-  ## Example
+  ## Example 
+  DEPLOYED URL:https://jovial-ride-29aab8.netlify.app
   ![directory](assets/directory.png)
    
